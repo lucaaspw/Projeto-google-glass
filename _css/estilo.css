@@ -2,8 +2,159 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
 }
 p{
     text-align: justify;
     text-indent: 50px;
+}
+div#interface{
+    width: 90%;
+    margin: -20px auto 0 auto ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    padding: 10px;
+}
+header#cabecalho {
+    border-bottom: 1px solid #4d4d4d;
+    height: 160px;
+    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0 80px;
+}
+header#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 0px 0px 5px #383838; 
+    padding: 0;
+    margin-bottom: 0;
+}
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: #888;
+    padding: 0;
+    margin-top: 0;
+}
+header#cabecalho img#icone{
+    position: absolute;
+    left: 83%;
+    top: 50px;
+}
+/* Formatação de imagem*/
+
+figure.foto-legenda{
+    position: relative;
+    border: 8px solid #fff;
+    box-shadow: 1px 1px 4px #000;
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.foto-legenda figcaption:hover{
+    opacity: 1;
+}
+/* Formatação do meno*/
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+     left: 650px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    background: #606060; 
+    transition: background 1s;
+}
+nav#menu li:hover{
+    background: rgb(255, 130, 63);
+}
+nav#menu a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav#menu h1{
+    display: none;
+}
+article#noticia-principal h2{
+    font-size: 12pt;
+    color: #606060;
+    background: #ddd;
+    margin: 10px;
+    padding: 10px;
+}
+section#corpo{
+    display: block;
+    width: 53%;
+    float: left;
+    border-right: 1px solid #606060;
+    padding: 15px;
+}
+table#tablespec caption{
+    font-size: 20pt;
+    color: rgb(77, 77, 77);
+}
+table#tablespec span{
+    display: block;
+    float: right;
+    font-size: 10pt;
+    margin-top: 10px;
+    color: #4d4d4d;
+}
+table#tablespec{
+    border: 1px solid #4d4d4d;
+    border-spacing: 0px;
+}
+table#tablespec td{
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+}
+table#tablespec td.coluna-esquerda{
+    color: #fff;
+    background: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+table#tablespec td.coluna-direita{
+    text-align: left;
+    background: #999;
+}
+aside#lateral{
+    display: block;
+    width: 43%;
+    float: right;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+    text-align: center;
+    
+}
+footer#rodape a{
+    text-decoration: none;
+    color: #606060;
 }
