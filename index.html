@@ -13,19 +13,19 @@
             <nav id="menu">
                 <h1>Menu Principal </h1>
                 <ul>
-                    <li  onmouseover="home()" onmouseout="home2()">
+                    <li onmouseover="trocarFoto('_imagens/home.png')" onmouseout="trocarFoto('_imagens/glass-oculos-preto-peq.png')">
                         <a href="index.html">Home </a>
                     </li>
-                    <li onmouseover="especificacoes()">
+                    <li onmouseover="trocarFoto('_imagens/especificacoes.png')" onmouseout="trocarFoto('_imagens/glass-oculos-preto-peq.png')">
                         <a href="specs.html">Especificações</a>
                     </li>
-                    <li onmouseover="fotos()">
+                    <li onmouseover="trocarFoto('_imagens/fotos.png')" onmouseout="trocarFoto('_imagens/glass-oculos-preto-peq.png')"">
                         <a href="fotos.html">Fotos </a>
                     </li>
-                    <li onmouseover="multmidia()">
+                    <li onmouseover="trocarFoto('_imagens/multimidia.png')" onmouseout="trocarFoto('_imagens/glass-oculos-preto-peq.png')"">
                         <a href="multimidia.html">Multimídia</a>
                     </li>
-                    <li onmouseover="faleConosco()">
+                    <li onmouseover="trocarFoto('_imagens/contato.png')" onmouseout="trocarFoto('_imagens/glass-oculos-preto-peq.png')">
                         <a href="fale-conosco.html">Fale conosco</a>
                     </li>
                 </ul>
@@ -148,17 +148,7 @@
             </p>
         </footer>
     </div>
-    <script>
-        function home(){
-            document.getElementById("icone").src = "/_imagens/home.png";
-        }
-        function especificacoes(){
-            document.getElementById("icone").src = "/_imagens/especificacoes.png";
-        }
-        function home2(){
-            document.getElementById("icone").src = "/_imagens/glass-oculos-preto-peq.png";
-        }
-    </script>
+    <script src="/_javascript/funcoes.js"></script>
 </body>
 
 </html>
