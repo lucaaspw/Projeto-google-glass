@@ -130,6 +130,7 @@ table#tablespec span{
 table#tablespec{
     border: 1px solid #4d4d4d;
     border-spacing: 0px;
+    margin: auto;
 }
 table#tablespec td{
     border: 1px solid #606060;
