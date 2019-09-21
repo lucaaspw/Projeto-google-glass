@@ -6,11 +6,11 @@ section#sessao{
 }
 iframe#frame-spec{
     width: 483px;
-    height: 250px;
+    height: 290px;
     border: none;
     margin-left: 5px;
     overflow: hidden;
 }
-iframe#frame-spec:: -webkit-scrollbar{
+iframe#frame-spec::-webkit-scrollbar{
     display: none;
 }

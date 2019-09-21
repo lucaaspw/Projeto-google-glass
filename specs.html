@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="_css/estilo.css">
     <link rel="stylesheet" href="_css/specs.css">
 </head>
+
 <body>
     <div id="interface">
         <header id="cabecalho">
@@ -19,11 +20,11 @@
                     <li onmouseover="trocarFoto('_imagens/especificacoes.png')" onmouseout="trocarFoto('_imagens/especificacoes.png')">
                         <a href="specs.html">Especificações</a>
                     </li>
-                    <li onmouseover="trocarFoto('_imagens/fotos.png')" onmouseout="trocarFoto('_imagens/especificacoes.png')" >
+                    <li onmouseover="trocarFoto('_imagens/fotos.png')" onmouseout="trocarFoto('_imagens/especificacoes.png')">
                         <a href="fotos.html ">Fotos </a>
                     </li>
                     <li onmouseover="trocarFoto( '_imagens/multimidia.png') " onmouseout="trocarFoto(
-                        '_imagens/glass-oculos-preto-peq.png') ">
+                        '_imagens/especificacoes.png') ">
                         <a href="multimidia.html">Multimídia</a>
                     </li>
                     <li onmouseover="trocarFoto('_imagens/contato.png')" onmouseout="trocarFoto('_imagens/especificacoes.png')">
@@ -38,27 +39,35 @@
             </hgroup>
         </header>
         <article id="noticia-principal">
-                <hgroup>
-                    <h3>Glass > Especificações </h3>
-                    <h1> Raio-X no Google Glass</h1>
-                    <h2>Atualizado em 01/Maio/2013 </h2>
-             
-        <p>Clique em qualquer área destacada
-        da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um
-        lugar cheio de novas informações.</p> 
-        <section id="sessao">
-            <img src="/_imagens/glass-esquema-marcado.jpg" alt="oculos com sensores">
-            <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
-         </section>
+            <hgroup>
+                <h3>Glass > Especificações </h3>
+                <h1> Raio-X no Google Glass</h1>
+                <h2>Atualizado em 01/Maio/2013 </h2>
 
-        <footer id="rodape">
-            <p>Copyright 2013 - by Lucas Gonçalves
-                <br>
-                <a href="">Facebook </a>|
-                <a href="#!">Twitter</a>
-            </p>
-        </footer>
+                <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
+                    Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+                <section id="sessao">
+                    <img src="/_imagens/glass-esquema-marcado.jpg" alt="oculos com sensores" usemap="meu-mapa">
+                    <map name="meu-mapa">
+                        <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela" alt="">
+                        <area shape="circle" coords="147,243,12" href="google-glass.html#camera"  target="janela" alt="">
+                        <area shape="circle" coords="73,52,12" href="google-glass.html#gadget"  target="janela" alt="">
+                        <area shape="circle" coords="28,143,83,216,89,259,37,169" href="google-glass.html#sensores"  target="janela" alt="">
+
+
+                    </map>
+                    <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+                </section>
+
+                <footer id="rodape">
+                    <p>Copyright 2013 - by Lucas Gonçalves
+                        <br>
+                        <a href="">Facebook </a>|
+                        <a href="#!">Twitter</a>
+                    </p>
+                </footer>
     </div>
     <script src="/_javascript/funcoes.js"></script>
 </body>
+
 </html>
